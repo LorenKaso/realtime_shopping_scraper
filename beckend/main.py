@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
-from scraper import scrape
+from basic_scraper import scrape
 
 app = FastAPI()
 app.add_middleware(
